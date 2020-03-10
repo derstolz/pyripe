@@ -55,3 +55,4 @@ for section in sections:
         for value in values:
             if search_keyword.lower() in value:
                 print(section)
+                print("*" * 50)
